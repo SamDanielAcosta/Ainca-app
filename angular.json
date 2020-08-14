@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Ainca-app"
+    }
+  },
+  "defaultProject": "Ainca-app",
+  "cli": {
+    "analytics": "73c4e761-4871-44cf-afe7-eaf87c9c1ca9"
+  }
 }
