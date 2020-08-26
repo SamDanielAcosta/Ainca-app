@@ -1,0 +1,14 @@
+#logo {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    float: left;
+    background-image: url(../../assets/logo.jpeg);
+}
+
+.usarName {
+    position: relative;
+    float: right;
+    padding: 10px;
+    color: white;
+}
