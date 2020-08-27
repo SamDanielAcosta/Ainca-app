@@ -1,87 +1,77 @@
-.principal {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    font-family: sans-serif;
-    height: 100vh;
-    background: url(../../assets/Fondo.jpeg) no-repeat center;
+/* llamado para la imagen de fondo*/
+.imgFondo {
+  background: url(../../assets/Fondo.jpeg) no-repeat center top;
+}
+
+.Contfon {
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.imgFondoLogo {
+  background-image: url(../../assets/logoLogin.png);
+}
+
+.logoImg {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 50px);
+  background-size:contain;
+  background-position:auto;
+  background-repeat: no-repeat;
 }
 
 .login {
-    width: 430px;
-    height: 430px;
-    background: #F5F4F4;
-    color: #000000;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
+  width: 450px;
+  height: 450px;
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  color: #000000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 60px;
+  border-radius: 6%;
 }
 
-.login .logo {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
+ .txtinicio {
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.login .txt {
-    text-align: center;
-    font-size: 22px;
+input {
+  width:100%;
+  margin-bottom: 30px;
+}
+ .subTxt1{
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(13, 54, 143);
+  outline: none;
+  height: 80px;
+  font-size: 20px;
+  padding-top: 25px;
 }
 
-.login .intTxt {
-    font-weight: bold;
-    display: block;
+.ingresar{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1e1972;
+  color: rgb(216, 215, 215);
+  font-size: 18px;
+  border-radius: 20px;
 }
 
-.login .subTxt {
-    font-size: 5px;
+ .ingresar:hover {
+  cursor: pointer;
+  background: #eed70b;
+  color: rgb(27, 26, 26);
 }
 
-.login input {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.login input[type="text"],
-.login input[type="password"] {
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #0000;
-    font-size: 10px;
-}
-
-.login input[type="submit"] {
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #b80f22;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-.login input[type="submit"]:hover {
-    cursor: pointer;
-    background: #ffc107;
-    color: #000;
-}
-
-.login a {
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: darkgrey;
-}
-
-.login a:hover {
-    color: #fff;
-}
