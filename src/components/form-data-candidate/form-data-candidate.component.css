@@ -1,0 +1,42 @@
+.encabezado {
+    text-align: center;
+    margin: 50px;
+}
+
+form {
+    width: 100%;
+    position: relative;
+}
+
+.nameUser {
+    float: left;
+    margin-left: 400px;
+}
+
+.address {
+    margin-left: 395px;
+    float: left;
+}
+
+.age {
+    margin-left: 430px;
+    float: left;
+}
+
+.scolarship {
+    margin-left: 380px;
+    ;
+}
+
+.continuarButton {
+    margin-bottom: 26px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
