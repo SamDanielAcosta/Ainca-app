@@ -1,5 +1,11 @@
 <h3 class="titulo ">LISTADO DE ASPIRANTES</h3>
 
-<button type="button" class="btn btn-danger ml-5">PDF</button>
+<button type="button" class="btn btn-danger ml-5" (click)="onClickExport()">PDF</button>
 <button type="button" class="btn btn-success ml-3">EXCEL</button>
 <button type="button" class="btn btn-primary float-right mr-5">Agregar +</button>
+
+
+<input type="text" style="padding:8px;margin:15px auto;width:30%;" placeholder="Type to filter the name column..." (keyup)="updateFilter($event)" />
+
+<ngx-datatable #table class="material" [columns]="columns" [rows]="rows" [loadingIndicator]="loadingIndicator" [columnMode]="columnMode.force" [headerHeight]="50" [footerHeight]="50" rowHeight="auto" [reorderable]="true">
+</ngx-datatable>
