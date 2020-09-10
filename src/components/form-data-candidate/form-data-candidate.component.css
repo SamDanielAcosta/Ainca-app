@@ -1,48 +1,18 @@
-.encabezado {
+legend {
     text-align: center;
-    margin: 50px;
+    padding: 20px;
 }
 
-form {
+.contentButton {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.principal {
     width: 100%;
-    height: auto;
-    position: relative;
-    margin: auto;
-    /* border: 1px solid black; */
-    width: 50%;
-}
-
-.name {
-    /* float: left; */
-    /* border: 1px solid black; */
-    width: 50%;
-}
-
-.lastName {
-    /* border: 1px solid black; */
-    width: 50%;
-}
-
-.nameUser {
-    /* border: 1px solid black; */
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    /* justify-content: flex-start; */
-    /* justify-content: center; */
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-}
-
-.continuarButton {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    /* justify-content: flex-start; */
-    /* justify-content: center; */
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-    margin: 39px;
+    background-color: #FEFEFE;
 }
