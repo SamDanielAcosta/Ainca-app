@@ -1,23 +1,17 @@
+
 /* llamado para la imagen de fondo*/
 .imgFondo {
-  background: url(../../assets/Fondo.jpeg) no-repeat center top;
-}
-
-.Contfon {
-  background-size: cover;
-  font-family: sans-serif;
   height: 100vh;
+  background-size: 100% 100%;
+  background-image: url(../../assets/Fondo.jpeg);
 }
 
 .imgFondoLogo {
   background-image: url(../../assets/logoLogin.png);
-}
-
-.logoImg {
   width: 130px;
   height: 130px;
   position: absolute;
-  top: -60px;
+  top: 50px;
   left: calc(50% - 50px);
   background-size:contain;
   background-position:auto;
@@ -25,30 +19,26 @@
 }
 
 .login {
-  width: 450px;
-  height: 450px;
-  background: rgba(255, 255, 255, 0.74);
+  width: 400px;
+  height: 400px;
+  background: rgba(235, 230, 230, 0.74);
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
   color: #000000;
   top: 50%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  padding: 60px;
   border-radius: 6%;
 }
 
  .txtinicio {
   text-align: center;
   font-size: 22px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  position: absolute;
+  top: 30%;
 }
 
-input {
-  width:100%;
-  margin-bottom: 30px;
-}
+
  .subTxt1{
   border: none;
   background: transparent;
@@ -75,3 +65,7 @@ input {
   color: rgb(27, 26, 26);
 }
 
+@media only screen and (max-width:350px) {
+
+
+}
